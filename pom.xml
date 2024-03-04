@@ -37,8 +37,8 @@
 								<workerType>MICRO</workerType>
 								<properties>
 									<env>dev</env>
-									<anypoint.platform.client_id>c66facf134844445bf80b1a38e95518b</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>06a5187e28E94632a7085223657819Ec</anypoint.platform.client_secret>
+									<anypoint.platform.client_id>744000e308f94d07b5324ffcdfe13bde</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>71d38A74c9344C27A2C67607207c6Fa9</anypoint.platform.client_secret>
 								</properties>
 							</cloudHubDeployment>
 						</configuration>
@@ -64,8 +64,8 @@
 								<workerType>MICRO</workerType>
 								<properties>
 									<env>test</env>
-									<anypoint.platform.client_id>46c216fa22cd404084f52e74a7a00a0d</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>bDdfa335Cd374c2daC41e3315Ac3AA0A</anypoint.platform.client_secret>
+									<anypoint.platform.client_id>f18ac86775ef47b4a6ca53f9f502cd4d</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>f9f227ad82F34f568AcfE521b531C76C</anypoint.platform.client_secret>
 								</properties>
 							</cloudHubDeployment>
 						</configuration>
@@ -91,7 +91,7 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<username>gangaraju1437</username>
+						<username>gangarajuevana_1437</username>
 						<password>Raju@123</password>
 						<objectStoreV2>true</objectStoreV2>
 						<properties>
