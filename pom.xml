@@ -30,7 +30,7 @@
 						<extensions>true</extensions>
 						<configuration>
 							<cloudHubDeployment>
-								<applicationName>centralrepositoy-dev</applicationName>
+								<applicationName>centralrepositoy123-dev</applicationName>
 								<environment>dev</environment>
 								<region>us-east-1</region>
 								<workers>1</workers>
@@ -57,7 +57,7 @@
 						<extensions>true</extensions>
 						<configuration>
 							<cloudHubDeployment>
-								<applicationName>centralrepository-test</applicationName>
+								<applicationName>centralrepository123-test</applicationName>
 								<environment>test</environment>
 								<region>us-east-1</region>
 								<workers>1</workers>
