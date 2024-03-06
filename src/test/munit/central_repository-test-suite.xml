@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="central_repository-test-suite.xml" />
+	<munit:test name="central_repository-test-suite-central_repositoryFlowTest" doc:id="96347506-5ce5-4ff5-a769-7ca09db53f26" description="Test">
+		<munit:execution >
+			<munit:set-event doc:name="Set Event" doc:id="52d6e41f-12a8-43c3-8732-f37b0e8ac77f" />
+			<flow-ref doc:name="Flow-ref to central_repositoryFlow" doc:id="6b035848-b779-44f2-ae99-cf0c3765961d" name="central_repositoryFlow"/>
+		</munit:execution>
+	</munit:test>
+
+
+</mule>
