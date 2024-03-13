@@ -30,7 +30,7 @@
 						<extensions>true</extensions>
 						<configuration>
 							<cloudHubDeployment>
-								<applicationName>centralrepositoy-dev</applicationName>
+								<applicationName>centralrepo-raju-dev</applicationName>
 								<environment>dev</environment>
 								<region>us-east-1</region>
 								<workers>1</workers>
