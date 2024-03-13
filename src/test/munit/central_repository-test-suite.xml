@@ -13,6 +13,9 @@
 			<munit:set-event doc:name="Set Event" doc:id="52d6e41f-12a8-43c3-8732-f37b0e8ac77f" />
 			<flow-ref doc:name="Flow-ref to central_repositoryFlow" doc:id="6b035848-b779-44f2-ae99-cf0c3765961d" name="central_repositoryFlow"/>
 		</munit:execution>
+		<munit:validation >
+			<munit-tools:assert-equals doc:name="Assert equals" doc:id="e3e69af7-e283-462d-98f4-27da04c7cf74" actual="#[payload]" expected='#["This is jenkins repository application"]'/>
+		</munit:validation>
 	</munit:test>
 
 
