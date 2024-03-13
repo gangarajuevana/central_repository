@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:salesforce-api="http://www.mulesoft.org/schema/mule/salesforce-api" xmlns:db="http://www.mulesoft.org/schema/mule/db"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd
+http://www.mulesoft.org/schema/mule/salesforce-api http://www.mulesoft.org/schema/mule/salesforce-api/current/mule-salesforce-api.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="2b66c805-debe-4643-b38a-348358f46cda" >
+		<http:listener-connection host="${http.host}" port="${http.port}" />
+	</http:listener-config>
+	<configuration-properties doc:name="Configuration properties" doc:id="cfdc2ce2-2ac5-4c48-8453-0b77dff2ed56" file="${env}.yaml" />
+	<flow name="central_repositoryFlow" doc:id="d4ca21ad-1f35-483c-b8ea-6ac3a55acb35" >
+		<http:listener doc:name="Listener" doc:id="715366fb-ed06-4e8a-95df-0218f3992419" config-ref="HTTP_Listener_config" path="/repo"/>
+		<logger level="INFO" doc:name="Logger" doc:id="59c37976-d961-4ae0-b043-4696552bb459" message='#["This is jenkins repository application"]'/>
+	</flow>
+</mule>
