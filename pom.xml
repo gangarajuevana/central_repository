@@ -37,8 +37,8 @@
 								<workerType>MICRO</workerType>
 								<properties>
 									<env>dev</env>
-									<anypoint.platform.client_id>744000e308f94d07b5324ffcdfe13bde</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>71d38A74c9344C27A2C67607207c6Fa9</anypoint.platform.client_secret>
+									<anypoint.platform.client_id>${anypoint.platform.client_id}</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
 								</properties>
 							</cloudHubDeployment>
 						</configuration>
@@ -91,8 +91,8 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<username>gangarajuevana_1437</username>
-						<password>Raju@123</password>
+						<username>${username}</username>
+						<password>${password}</password>
 						<objectStoreV2>true</objectStoreV2>
 						<properties>
 							<anypoint.platform.base_uri>https://anypoint.mulesoft.com</anypoint.platform.base_uri>
